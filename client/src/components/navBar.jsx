@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 const NavBar = () => {
     return (
-        <div>
-            <p>This will be a nav bar</p>
+        <div className="navbar bg-base-100">
+            <a className="btn btn-ghost text-xl">Olsen Adventures</a>
         </div>
     );
 }
